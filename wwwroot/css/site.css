@@ -8,6 +8,22 @@ header {
 }
 
 .contactform .field-validation-error {
-    color: red;
+    color: darkred;
     margin-left: 10px;
+}
+
+.left-align {
+    float: left;
+    margin-top: -10px;
+    margin-right: 10px; /* optioneel: voegt een kleine marge toe aan de rechterkant van de afbeelding */
+}
+
+.ombre-font {
+    font-size: 36px; /* Vervang dit door de gewenste lettergrootte */
+    color: darkred; /* Vervang dit door de gewenste tekstkleur */
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Pas de waarden aan naar het gewenste ombre-effect */
+}
+
+navbar {
+    background: red
 }
