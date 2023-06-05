@@ -21,8 +21,11 @@ namespace Infproject.Controllers
         }
 
         [Route("Contact")]
-        public IActionResult Contact()
+        public IActionResult Contact(string firstname, string lastname)
         {
+            ViewData["firstname"] = firstname;
+            ViewData["lastname"] = lastname;
+
             return View();
         }
 
