@@ -12,6 +12,12 @@ header {
     margin-left: 10px;
 }
 
+body {
+    background-image: url("css/Afbeeldingen/gordijn.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
 .left-align {
     float: left;
     margin-top: -10px;
@@ -21,7 +27,13 @@ header {
 .ombre-font {
     font-size: 36px; /* Vervang dit door de gewenste lettergrootte */
     color: darkred; /* Vervang dit door de gewenste tekstkleur */
-    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Pas de waarden aan naar het gewenste ombre-effect */
+    text-shadow: 2px 2px 4px rgba(139, 0, 0, 0.5), 2px 2px 4px rgba(187, 26, 26, 0.5), 3px 3px 5px rgba(255, 0, 0, 0.5);
+}
+
+.ombre-font2 {
+    font-size: 18px; 
+    color: darkred; 
+    text-shadow: 1px 1px 2px rgba(139, 0, 0, 0.5), 2px 2px 4px rgba(187, 26, 26, 0.5), 3px 3px 5px rgba(255, 0, 0, 0.5);
 }
 
 navbar {
