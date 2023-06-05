@@ -1,10 +1,34 @@
-﻿@{
+﻿@model Infproject.Models.Person
+
+@{
     ViewData["Titel"] = "Contact";
 }
 <h1>@ViewData["Titel"]</h1>
 
-<form>
-    Voornaam: <input type="text" name="firstname" />
-    Achternaam: <input type="text" name="lastname" />
-    <input type="submit" value="opslaan" />
+<form method="post" class="contactform">
+  <div class="form-group">
+    @Html.LabelFor(m => m.voornaam)
+    @Html.TextBoxFor(m => m.voornaam)
+    @Html.ValidationMessageFor(m => m.voornaam)
+  </div>
+
+   <div class="form-group">
+    @Html.LabelFor(m => m.achternaam)
+    @Html.TextBoxFor(m => m.achternaam)
+    @Html.ValidationMessageFor(m => m.achternaam)
+  </div>
+
+  <div class="form-group">
+    @Html.LabelFor(m => m.Email)
+    @Html.TextBoxFor(m => m.Email)
+    @Html.ValidationMessageFor(m => m.Email)
+  </div>
+
+  <div class="form-group">
+    @Html.LabelFor(m => m.bericht)
+    @Html.TextBoxFor(m => m.bericht)
+    @Html.ValidationMessageFor(m => m.bericht)
+  </div>
+
+  <input type="submit" value="verstuur" />
 </form>
