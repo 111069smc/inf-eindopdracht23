@@ -13,6 +13,7 @@ header {
 }
 
 p {
+    display: block;
     
 }
 .bg {
@@ -27,7 +28,8 @@ p {
 }
 
 .ombre-font {
-    font-size: 36px; /* Vervang dit door de gewenste lettergrootte */
+    margin-top: 150px;
+    font-size: 50px; /* Vervang dit door de gewenste lettergrootte */
     color: darkred; /* Vervang dit door de gewenste tekstkleur */
     text-shadow: 2px 2px 4px rgba(139, 0, 0, 0.5), 2px 2px 4px rgba(187, 26, 26, 0.5), 3px 3px 5px rgba(255, 0, 0, 0.5);
 }
