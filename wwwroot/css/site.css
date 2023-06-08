@@ -12,12 +12,14 @@ header {
     margin-left: 10px;
 }
 
-body {
-    background-image: url('css/Afbeeldingen/gordijn.png');
+p {
+    
+}
+.bg {
+    background-image: url(Afbeeldingen/gordijn.png);
     background-repeat: no-repeat;
     background-size: cover;
 }
-
 .left-align {
     float: left;
     margin-top: -10px;
