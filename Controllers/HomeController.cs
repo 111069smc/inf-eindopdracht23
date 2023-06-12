@@ -37,7 +37,7 @@ namespace Infproject.Controllers
             return View();
         }
 
-        public IActionResult Privacy()
+        public IActionResult OverOns()
         {
             return View();
         }

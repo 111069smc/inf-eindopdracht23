@@ -3,9 +3,11 @@
 @{
     ViewData["Titel"] = "Contact";
 }
-<h1 class= "ombre-fontcc">@ViewData["Titel"]</h1>
+
 
 <form method="post" class="contactform">
+    <h1 class= "ombre-fontcc">@ViewData["Titel"]</h1>
+
   <div class="form-group">
     @Html.LabelFor(m => m.voornaam)
     @Html.TextBoxFor(m => m.voornaam)
